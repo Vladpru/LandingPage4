@@ -23,7 +23,7 @@ const Body = () => {
       </div>
       <div style={styles.card}>
         <img
-          src={"/Denys.jpg"}
+          src={"/DenysS.jpg"}
           alt="Денис Сич"
           style={styles.photo}
         />
