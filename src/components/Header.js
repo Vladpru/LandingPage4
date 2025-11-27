@@ -10,10 +10,11 @@ const Header = () => {
 
 const styles = {
   header: {
-    padding: "1em",
-    color: "#6a0dad",
+    paddingTop: "8px",
+    color: "#1c6c26ff",
     textAlign: "center",
     fontWeight: "bold",
+    fontSize: "28px",
   },
 };
 
