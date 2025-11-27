@@ -23,12 +23,12 @@ const Body = () => {
       </div>
       <div style={styles.card}>
         <img
-          src={"/avatar-default.png"}
-          alt="Владислав Присяжнюк"
+          src={"/Denys.jpg"}
+          alt="Денис Сич"
           style={styles.photo}
         />
         <div style={styles.textContainer}>
-          <h2 style={styles.name}>Владислав Присяжнюк</h2>
+          <h2 style={styles.name}>Денис Сич</h2>
           <p style={styles.position}>QA Engineer</p>
         </div>
       </div>
