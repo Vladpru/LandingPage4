@@ -11,28 +11,44 @@ const Body = () => {
         </div>
       </div>
       <div style={styles.card}>
-        <img src={"/avatar-default.png"} alt="Владислав Присяжнюк" style={styles.photo} />
+        <img
+          src={"/dima.jpg"}
+          alt="Дмитро Антончик"
+          style={styles.photo}
+        />
         <div style={styles.textContainer}>
-          <h2 style={styles.name}>Владислав Присяжнюк</h2> 
+          <h2 style={styles.name}>Дмитро Антончик</h2>
           <p style={styles.position}>UI/UX Designer</p>
         </div>
       </div>
       <div style={styles.card}>
-        <img src={"/avatar-default.png"} alt="Владислав Присяжнюк" style={styles.photo} />
+        <img
+          src={"/avatar-default.png"}
+          alt="Владислав Присяжнюк"
+          style={styles.photo}
+        />
         <div style={styles.textContainer}>
-          <h2 style={styles.name}>Владислав Присяжнюк</h2> 
+          <h2 style={styles.name}>Владислав Присяжнюк</h2>
           <p style={styles.position}>QA Engineer</p>
         </div>
       </div>
       <div style={styles.card}>
-        <img src={"/avatar-default.png"} alt="Владислав Присяжнюк" style={styles.photo} />
+        <img
+          src={"/avatar-default.png"}
+          alt="Владислав Присяжнюк"
+          style={styles.photo}
+        />
         <div style={styles.textContainer}>
           <h2 style={styles.name}>Владислав Присяжнюк</h2>
           <p style={styles.position}>Project Manager</p>
         </div>
       </div>
       <div style={styles.card}>
-        <img src={"/avatar-default.png"} alt="Владислав Присяжнюк" style={styles.photo} />
+        <img
+          src={"/avatar-default.png"}
+          alt="Владислав Присяжнюк"
+          style={styles.photo}
+        />
         <div style={styles.textContainer}>
           <h2 style={styles.name}>Владислав Присяжнюк</h2>
           <p style={styles.position}>Business Analyst</p>
@@ -48,7 +64,7 @@ const styles = {
     marginTop: "50px",
     flexWrap: "wrap",
     justifyContent: "center",
-    gap: "30px"
+    gap: "30px",
   },
   card: {
     width: "200px",
