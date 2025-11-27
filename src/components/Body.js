@@ -34,17 +34,6 @@ const Body = () => {
       </div>
       <div style={styles.card}>
         <img
-          src={"/avatar-default.png"}
-          alt="Владислав Присяжнюк"
-          style={styles.photo}
-        />
-        <div style={styles.textContainer}>
-          <h2 style={styles.name}>Владислав Присяжнюк</h2>
-          <p style={styles.position}>Project Manager</p>
-        </div>
-      </div>
-      <div style={styles.card}>
-        <img
           src={"/Bohdan.jpg"}
           alt="Богдан Корнацький"
           style={styles.photo}
@@ -106,7 +95,7 @@ const styles = {
   },
   position: {
     fontSize: "18px",
-    color: "#34a743ff",
+    color: "#172644ff",
     margin: "0.5em 0 0 0",
   },
 };
