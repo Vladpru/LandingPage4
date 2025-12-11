@@ -23,35 +23,35 @@ const Body = () => {
       </div>
       <div style={styles.card}>
         <img
-          src={"/avatar-default.png"}
-          alt="Владислав Присяжнюк"
+          src={"/DenysS.jpg"}
+          alt="Денис Сич"
           style={styles.photo}
         />
         <div style={styles.textContainer}>
-          <h2 style={styles.name}>Владислав Присяжнюк</h2>
+          <h2 style={styles.name}>Денис Сич</h2>
           <p style={styles.position}>QA Engineer</p>
         </div>
       </div>
       <div style={styles.card}>
         <img
-          src={"/avatar-default.png"}
-          alt="Владислав Присяжнюк"
-          style={styles.photo}
-        />
-        <div style={styles.textContainer}>
-          <h2 style={styles.name}>Владислав Присяжнюк</h2>
-          <p style={styles.position}>Project Manager</p>
-        </div>
-      </div>
-      <div style={styles.card}>
-        <img
-          src={"/bohdan.jpg"}
+          src={"/Bohdan.jpg"}
           alt="Богдан Корнацький"
           style={styles.photo}
         />
         <div style={styles.textContainer}>
           <h2 style={styles.name}>Богдан Корнацький</h2>
           <p style={styles.position}>Business Analyst</p>
+        </div>
+      </div>
+      <div style={styles.card}>
+        <img
+          src={"/Liza.jpg"}
+          alt="Єлизавета Ясінська"
+          style={styles.photo}
+        />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Єлизавета Ясінська</h2>
+          <p style={styles.position}>Project Manager</p>
         </div>
       </div>
     </main>
@@ -95,7 +95,7 @@ const styles = {
   },
   position: {
     fontSize: "18px",
-    color: "#34a743ff",
+    color: "#172644ff",
     margin: "0.5em 0 0 0",
   },
 };
