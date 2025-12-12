@@ -6,7 +6,7 @@ const Body = () => {
       <div style={styles.card}>
         <img src={"/vlad.jpg"} alt="Владислав Присяжнюк" style={styles.photo} />
         <div style={styles.textContainer}>
-          <h2 style={styles.name}>Владислав Присяжнюк</h2>
+          <h2 style={styles.name}>Владислав Присяжнюк   </h2>
           <p style={styles.position}>Software engineer</p>
         </div>
       </div>
@@ -23,7 +23,7 @@ const Body = () => {
       </div>
       <div style={styles.card}>
         <img
-          src={ "/DenysS.jpg" }
+          src={"/DenysS.jpg"}
           alt="Денис Сич"
           style={styles.photo}
         />
